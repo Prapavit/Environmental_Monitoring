@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.App form{
+  display: flex;
+  gap: 10px;
+}
+
+.sensors{
+  display: grid;
+  width: 500px;
+  margin:0 auto;
+  grid-template-columns: repeat(1, 1fr);
+  color: black;
+}
+
+.sensors li{
+  display: block;
+  width: 90%;
+  height: 300px;
+  background : white;
+  border: 1px solid white;
+  border-radius: 10 px;
+}
+
+.sensors li:hover{
+  background: #eee;
+  cursor: pointer;
+}
+
